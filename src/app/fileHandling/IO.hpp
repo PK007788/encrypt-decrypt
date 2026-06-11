@@ -12,6 +12,9 @@ class IO{
         // destructor
         ~IO();
         std::fstream getFileStream(); 
+
+    private:
+        std::fstream file_stream; 
     };
 
 
